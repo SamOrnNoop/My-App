@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:my_app/src/pages/qr_code_generator.dart';
+import 'package:my_app/src/pages/qr_scanner.dart';
 
 class AppRouters {
   static const String routPage = '/';
@@ -17,6 +18,8 @@ class AppRoutors {
     switch (settings.name) {
       case AppRouters.qrCode:
         return router(const QRcodeGeneratorPage());
+      case AppRouters.qrScanner:
+        return router(const ScannerPage());
     }
     return null;
   }

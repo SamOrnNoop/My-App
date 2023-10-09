@@ -63,8 +63,8 @@ class _HomeAppState extends State<HomeApp> {
                         const SliverGridDelegateWithFixedCrossAxisCount(
                             childAspectRatio: 1,
                             crossAxisCount: 3,
-                            mainAxisSpacing: 10,
-                            crossAxisSpacing: 10),
+                            mainAxisSpacing: 15,
+                            crossAxisSpacing: 15),
                     itemBuilder: (context, index) {
                       final data = MenuHomeModel();
                       data.fromData = MenuHomeModel.builderMenus[index];

@@ -18,7 +18,7 @@ class MenuHomeModel {
   static List<dynamic> get builderMenus {
     return [
       {
-        "title": "Qr Code",
+        "title": "QR Code",
         "routeName": "/QrCodePage",
         "icon": BasePathImag.barcode
       },

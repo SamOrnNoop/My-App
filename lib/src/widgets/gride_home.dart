@@ -28,15 +28,15 @@ class GrideMenuHomeWidget extends StatelessWidget {
             ImageIcon(
               AssetImage(icon),
               color: Constants.baseColor,
-              size: 40,
+              size: 35,
             ),
             Padding(
-              padding: const EdgeInsets.only(top: 6),
+              padding: const EdgeInsets.only(top: 8),
               child: Text(
                 title,
                 style: const TextStyle(
                     color: Constants.black,
-                    fontSize: 16,
+                    fontSize: 14,
                     fontWeight: FontWeight.bold),
               ),
             )
